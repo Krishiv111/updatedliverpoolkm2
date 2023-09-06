@@ -1,0 +1,25 @@
+.horizontal-menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .horizontal-menu li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .horizontal-menu li a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #333; /* Adjust color as needed */
+  }
+  
+  /* Optional: Add hover effect */
+  .horizontal-menu li a:hover {
+    background-color: #f2f2f2; /* Adjust color as needed */
+  }
+  
